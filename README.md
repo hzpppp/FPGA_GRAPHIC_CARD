@@ -1,8 +1,13 @@
-# FPGA_PCIE_GRAPHIC_CARD Hardware Portion
+# FPGA PCIE GRAPHIC CARD Hardware Portion
 
 此项目设计一以FPGA为核心的PCIE ADDIN卡，作图像处理硬件加速应用。此文档主要论述硬件方面相关内容，软件部分另有仓库详细介绍。
 
 软件部分仓库：
+
+> 引用示例
+
+图片示例
+
 
 # 前言
 
@@ -24,9 +29,13 @@
 
 根据上述bank需求选择合适的FPGA芯片，初步选定为Virtex_UltraScale系列的***XCVU3P-2FFVC1517I***。
 
-# 系统模块框图设计
+# 框图设计
 
-# 系统上电时序设计
+## 系统框图
+
+## 电源框图
+
+# 上电时序设计
 
 # 主板层叠设计与布局布线规划
 
