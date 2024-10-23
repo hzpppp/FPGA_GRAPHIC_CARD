@@ -20,7 +20,7 @@
 
 ## 1. 主要元器件选型
 
-### 1.1 FPGA 选型
+### 1.1 FPGA选型
 位宽192bit，容量12GB
 位宽256bit，容量16GB
 位宽384bit，容量24GB
@@ -34,15 +34,15 @@ PCIE3.0X16，4bank高速串行信号（32Lane series signals）
 
 根据上述bank需求选择合适的FPGA芯片，初步选定为Virtex_UltraScale系列的***XCVU3P-2FFVC1517I***。
 
-### 1.2 NOR_Flash 选型
+### 1.2 NOR_Flash选型
 
 #### 1.2.1 容量选择
 
 #### 1.2.2 配置时间预估
 
-### 1.3 Clock_Buffer 选型
+### 1.3  Clock_Buffer选型
 
-### 1.4 Power IC 选型
+### 1.4  Power IC选型
 
 ## 2. 框图设计
 
@@ -56,25 +56,23 @@ PCIE3.0X16，4bank高速串行信号（32Lane series signals）
 
 ## 3. 原理图设计
 
-### 3.1 FPGA 原理图设计
+### 3.1 FPGA原理图设计
 
+#### 3.1.1 FPGA基本配置
 
+#### 3.1.2 FPGA电源设计
 
-#### 3.1.1 FPGA 基本配置
+#### 3.1.3 FPGA DDR电路设计
 
-#### 3.1.2 FPGA 电源设计
+#### 3.1.4 FPGA PCIE设计
 
-#### 3.1.3 FPGA DDR 电路设计
+#### 3.1.5 FPGA GTY设计
 
-#### 3.1.4 FPGA PCIE 设计
-
-#### 3.1.5 FPGA GTY 设计
-
-### 3.2 DDR 电路设计
+### 3.2 DDR电路设计
 
 ### 3.3 主板电源设计
 
-### 3.4 PCIE 接口设计
+### 3.4 PCIE接口设计
 
 ## 4. 主板层叠设计与布局布线规划
 
