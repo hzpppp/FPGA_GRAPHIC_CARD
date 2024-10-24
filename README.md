@@ -31,9 +31,9 @@ PCIE3.0X16，4bank高速串行信号（32Lane series signals）
 
 以256bit为例，每三个bank控制80bit即5个16bit的DDR，9个bank控制240bit，11个bank才能完成符合位宽的设计。所以192bit需要8个bank，256bit需要11个bank，384bit需要15个bank。
 
-所需HPIO数量可有如下公式计算得出：bit_width / 8 * 3 + bit_width /80 * ctl_signal。所以192bit需要366个IO，256bit需要484个IO，384bit需要698个IO。
+所需 HPIO 数量可有如下公式计算得出：bit_width / 8 * 3 + bit_width /80 * ctl_signal。所以192bit需要366个IO，256bit需要484个IO，384bit 需要698个IO。
 
-根据上述bank需求选择合适的FPGA芯片，初步选定为Virtex_UltraScale系列的***XCVU3P-2FFVC1517I***。
+根据上述bank需求选择合适的FPGA芯片，初步选定为 Virtex_UltraScale 系列的***XCVU3P-2FFVC1517I***。
 
 ### 1.2 NOR_Flash选型
 
@@ -43,7 +43,15 @@ PCIE3.0X16，4bank高速串行信号（32Lane series signals）
 
 ### 1.3  Clock_Buffer选型
 
+<<<<<<< Updated upstream
 ### 1.4  Power IC选型
+=======
+#### 1.3.1 时钟需求
+
+#### 1.3.2
+
+### 1.4 Power IC 选型
+>>>>>>> Stashed changes
 
 ## 2. 框图设计
 
@@ -75,7 +83,7 @@ PCIE3.0X16，4bank高速串行信号（32Lane series signals）
 
 ### 3.4 PCIE接口设计
 
-## 4. 主板层叠设计与布局布线规划
+## 4. 主板层叠设计
 
 ## 5. 印刷电路板设计
 
@@ -91,3 +99,4 @@ PCIE3.0X16，4bank高速串行信号（32Lane series signals）
 
 
 
+###### 
