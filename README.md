@@ -43,16 +43,12 @@ PCIE3.0X16，4bank高速串行信号（32Lane series signals）
 
 ### 1.3  Clock_Buffer选型
 
-<<<<<<< Updated upstream
 ### 1.4  Power IC选型
-=======
 #### 1.3.1 时钟需求
 
 #### 1.3.2
 
 ### 1.4 Power IC 选型
->>>>>>> Stashed changes
-
 ## 2. 框图设计
 
 ### 2.1 系统框图
@@ -96,7 +92,3 @@ PCIE3.0X16，4bank高速串行信号（32Lane series signals）
 
 
 结语
-
-
-
-###### 
